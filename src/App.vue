@@ -3,7 +3,7 @@
   <div>
     <!-- o componente também poderia ser utilizado utilizando "primeiro-componente" -->
     <PrimeiroComponente />
-    <p>{{ textoQualquer }}</p>
+    <h3>{{ textoQualquer }}</h3>
     <LifeCycle />
     <Pessoa />
   </div>
@@ -27,7 +27,7 @@ export default {
   // Por mais que esse elemento App sirva, sobretudo, para abrigar outros componentes (isto é, ele é o componentes root da aplicação), ele também pode conter atributos e metodos dentro dele
   data(){
     return{
-      textoQualquer: "texto qualquer"
+      textoQualquer: "Algumas outras informações sobre mim:"
     }
   }
 }

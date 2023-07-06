@@ -1,6 +1,7 @@
 <!-- componente que vai descrever uma pessoa -->
 <template>
-    <h2>Esta é a descrição da pessoa: {{ nome }}</h2>
+    
+    <img :src="imagem_perfil" alt="imagem de perfil">
     <!-- demonstrando hierarquia de componentes com a utilização do componente Info -->
     <Info/>
 
@@ -11,7 +12,7 @@ export default {
     name: "Pessoa",
     data() {
         return{
-            nome: "Geovanna"
+            imagem_perfil:"https://avatars.githubusercontent.com/u/53124770?v=4",
         }
     },
     components: { Info }

@@ -1,9 +1,9 @@
 <template>
   <div>
     <h1>Olá, mundo!</h1>
-    <p>
+    <h2>
       {{ texto }}
-    </p>
+    </h2>
   </div>
     
 </template>
@@ -15,7 +15,7 @@ export default ({
   // os componentes podem conter dados. Para adicioná-los, utilizamos os inicializamos  dentro de uma função chamada data
   data(){
     return{
-      texto: "Esse é o texto inicial"
+      texto: "Essa é a minha primeira crianção em Vue.js"
     }
   }
 })
