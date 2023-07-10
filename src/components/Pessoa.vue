@@ -18,3 +18,8 @@ export default {
     components: { Info }
 }
 </script>
+<style scoped>
+    img {
+        width: 200px;
+    }
+</style>
