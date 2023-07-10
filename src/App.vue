@@ -32,3 +32,11 @@ export default {
   }
 }
 </script>
+
+<!-- utilizando estilização global-->
+<style>
+  body{
+    background-color: bisque;
+  }
+
+</style>
